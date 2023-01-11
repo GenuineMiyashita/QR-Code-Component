@@ -1,15 +1,10 @@
 body {
   background-color: #d6e2f0;
+  font-family: 'Outfit', sans-serif;
 }
 
-#alpha {
-  background: #fff;
+#secondary-container {
   max-width: 95%;
-  border: 1px solid red;
-}
-
-#beta {
-  border: 1px solid blue;
 }
 
 /* Footer Settings */
@@ -20,5 +15,5 @@ body {
 
   }
 #attribution a {
-    color: hsl(228, 45%, 44%);
+    color: #3e52a3;
   }

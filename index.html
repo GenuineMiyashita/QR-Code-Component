@@ -26,25 +26,27 @@
     <title>Frontend Mentor | QR Code Component</title>
   </head>
   <body>
-    <main class="container rounded h-100" id="alpha">
-      <div class="container d-flex justify-content-center" id="beta">
-        <img
-          class="img-fluid rounded"
-          id="hero-img"
-          src="images/image-qr-code.png"
-          alt="qr-code"
-        />
-      </div>
-
+    <main class="container min-vh-100" id="main-container">
       <div
-        class="container d-flex flex-column align-content-center"
-        id="charlie"
+        class="container position-absolute top-50 start-50 translate-middle bg-light rounded"
+        id="secondary-container"
       >
-        <p>Improve your front-end skills by building projects</p>
-        <p>
-          Scan the QR code to visit Frontend Mentor and take your coding skills
-          to the next level
-        </p>
+        <div class="container" id="image-container">
+          <img
+            class="img-fluid my-3 rounded"
+            id="hero-img"
+            src="images/image-qr-code.png"
+            alt="qr-code"
+          />
+        </div>
+
+        <div class="container text-center" id="text-container">
+          <p class="fs-2 mb-3" id="hero-text">Improve your front-end skills by building projects</p>
+          <p>
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
       </div>
     </main>
     <footer id="attribution">
