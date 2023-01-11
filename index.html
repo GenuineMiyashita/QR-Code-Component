@@ -21,6 +21,7 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="darktheme.css" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
     <title>Frontend Mentor | QR Code Component</title>
@@ -28,21 +29,23 @@
   <body>
     <main class="container min-vh-100" id="main-container">
       <div
-        class="container position-absolute top-50 start-50 translate-middle bg-light rounded"
+        class="container bg-light rounded position-absolute top-50 start-50 translate-middle"
         id="secondary-container"
       >
-        <div class="container" id="image-container">
+        <div class="container my-4" id="image-container">
           <img
-            class="img-fluid my-3 rounded"
+            class="img-fluid rounded mx-auto d-block"
             id="hero-img"
             src="images/image-qr-code.png"
             alt="qr-code"
           />
         </div>
 
-        <div class="container text-center" id="text-container">
-          <p class="fs-2 mb-3" id="hero-text">Improve your front-end skills by building projects</p>
-          <p>
+        <div class="container text-center my-4" id="text-container">
+          <p class="fs-2 fw-bold mb-3" id="hero-text">
+            Improve your front-end skills by building projects
+          </p>
+          <p class="fs-5 fw-light" id="sidekick-text">
             Scan the QR code to visit Frontend Mentor and take your coding
             skills to the next level
           </p>
@@ -60,5 +63,6 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="switch.js"></script>
   </body>
 </html>

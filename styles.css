@@ -7,6 +7,14 @@ body {
   max-width: 95%;
 }
 
+#hero-text {
+  color: #1f3251;
+}
+
+#sidekick-text {
+  color: #7b879d
+}
+
 /* Footer Settings */
 
 #attribution {
@@ -17,3 +25,9 @@ body {
 #attribution a {
     color: #3e52a3;
   }
+
+@media (min-width: 400px) {
+  #secondary-container {
+    max-width: 450px;
+  }
+}
