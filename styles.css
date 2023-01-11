@@ -1,3 +1,17 @@
+body {
+  background-color: #d6e2f0;
+}
+
+#alpha {
+  background: #fff;
+  max-width: 95%;
+  border: 1px solid red;
+}
+
+#beta {
+  border: 1px solid blue;
+}
+
 /* Footer Settings */
 
 #attribution {
