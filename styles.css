@@ -3,11 +3,19 @@ body {
   font-family: 'Outfit', sans-serif;
 }
 
+img {
+  max-width: 90%;
+}
+
 #hero-text {
+  font-size: 1.5rem;
+  font-weight: 700;
   color: #1f3251;
 }
 
 #sidekick-text {
+  font-size: 1rem;
+  font-weight: 500;
   color: #7b879d
 }
 
@@ -30,3 +38,22 @@ body {
   }
 }
 
+@media (max-height: 596px) and (orientation: landscape) {
+  #second-container {
+    max-width: 60%;
+    height: 350px;
+  }
+
+  #hero-text {
+    font-size: 1rem;
+  font-weight: 700;
+  color: #1f3251;
+  }
+
+  #sidekick-text {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #7b879d
+  }
+  
+}
