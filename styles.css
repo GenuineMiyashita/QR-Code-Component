@@ -3,10 +3,6 @@ body {
   font-family: 'Outfit', sans-serif;
 }
 
-#secondary-container {
-  max-width: 95%;
-}
-
 #hero-text {
   color: #1f3251;
 }
@@ -26,8 +22,11 @@ body {
     color: #3e52a3;
   }
 
-@media (min-width: 400px) {
-  #secondary-container {
-    max-width: 450px;
+/* Media Queries */
+
+@media (min-width: 391px) {
+  #main-container {
+    max-width: 425px;
   }
 }
+
