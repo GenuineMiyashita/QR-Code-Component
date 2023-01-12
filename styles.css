@@ -4,7 +4,16 @@ body {
 }
 
 img {
-  max-width: 90%;
+  max-width: 85%;
+}
+
+#second-container {
+  max-width: 85%;
+  border-radius: 15px;
+}
+
+#hero-img {
+  border-radius: 15px;
 }
 
 #hero-text {
