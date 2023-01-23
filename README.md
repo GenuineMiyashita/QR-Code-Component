@@ -18,11 +18,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./images/CompleteQR.png)
+![](./images/finalProduct.png)
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/qr-code-component-CdsTxIFAbA)
 - Live Site URL: [Live](https://genuinemiyashita.github.io/QR-Code-Component/)
 
 ## My process
@@ -39,10 +39,10 @@ From there, I wrote out my HTML and incorporated added a reset.css. At that poin
 
 ### Built with
 
+- Mobile-first workflow
 - Semantic HTML5 markup
 - CSS custom properties
-- Mobile-first workflow
-- [Bootstrap](https://getbootstrap.com/) - CSS Framework
+- Bootstrap
 
 ### What I learned
 
