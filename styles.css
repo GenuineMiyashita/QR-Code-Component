@@ -15,7 +15,6 @@ p {
   align-items: center;
   width: 21rem;
   height: 100vh;
-  background-color: orange;
 }
 
 #secondary-container {
@@ -51,28 +50,34 @@ p {
 
 /* Media Queries */
 
-/* @media (min-width: 391px) {
-  #main-container {
-    max-width: 425px;
+@media (min-width: 960px) {
+  .container {
+    width: 23rem;
   }
 }
 
-@media (max-height: 596px) and (orientation: landscape) {
-  #second-container {
-    max-width: 60%;
-    height: 350px;
+#sidekick-text {
+  max-width: 80%;
+}
+
+@media (max-height: 390px) and (orientation: landscape) {
+  .container {
+    max-width: 80%;
+  }
+
+  #qr-code {
+    width: 68%;
+    object-fit: cover;
+    margin: 0.5rem;
   }
 
   #hero-text {
-    font-size: 1rem;
-  font-weight: 700;
-  color: #1f3251;
+    font-size: 1.5rem;
+    margin: 0 1rem;
   }
 
   #sidekick-text {
-    font-size: 0.8rem;
-    font-weight: 500;
-    color: #7b879d;
+    font-size: 0.9rem;
+    margin: 0.7rem
   }
-  
-} */
+}
